@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "A",
+      "children": [
+        { "name": "A1", "children": [{ "name": "A11" },{ "name": "A12" },{ "name": "A13" }], "value": 10 },
+        { "name": "A2", "children": [{ "name": "A21" },{ "name": "A22" },{ "name": "A23" }], "value": 10 },
+        { "name": "A3", "children": [{ "name": "A31" },{ "name": "A32" },{ "name": "A33" }], "value": 10 }
+      ]
+    },
+    {
+      "name": "B",
+      "children": [
+        { "name": "B1", "children": [{ "name": "B11" },{ "name": "B12" },{ "name": "B13" }], "value": 10 },
+        { "name": "B2", "children": [{ "name": "B21" },{ "name": "B22" },{ "name": "B23" }], "value": 10 },
+        { "name": "B3", "children": [{ "name": "B31" },{ "name": "B32" },{ "name": "B33" }], "value": 10 }
+      ]
+    }
+  ]
+}

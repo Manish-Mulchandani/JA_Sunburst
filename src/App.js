@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import Sunburst from "./Sunburst";
 
-function App() {
+const App = () => {
+  // const [jsonData, setJsonData] = useState(null);
+
+  // useEffect(() => {
+  //   fetch("data.json")
+  //     .then(response => response.json())
+  //     .then(data => setJsonData(data))
+  //     .catch(error => console.error("Error fetching data:", error));
+  //   console.log("first")
+  //   console.log(jsonData)
+  // }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Sunburst Chart</h1>
+      <Sunburst/>
     </div>
   );
-}
+  
+};
 
 export default App;
